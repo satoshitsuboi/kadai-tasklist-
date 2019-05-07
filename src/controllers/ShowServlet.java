@@ -36,7 +36,7 @@ public class ShowServlet extends HttpServlet {
 		 Tasklist m =em.find(Tasklist.class,Integer.parseInt(request.getParameter("id")));
 
 		 em.close();
-		 // メッセージデータをリクエストスコープにセットしてshow.jspを呼び出す
+		 // タスクデータをリクエストスコープにセットしてshow.jspを呼び出す
 		 request.setAttribute("tasklist",m);
 
 		 RequestDispatcher rd = request.getRequestDispatcher("/WEB-INF/views//tasklists/show.jsp");

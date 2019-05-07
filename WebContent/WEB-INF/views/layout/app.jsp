@@ -3,12 +3,12 @@
 <html lang="ja">
     <head>
         <meta charset="UTF-8">
-        <title>課題一覧</title>
+        <title>タスク一覧</title>
     </head>
     <body>
 <div id="wrapper">
 <div id="header">
-<h1>課題一覧アプリケーション</h1>
+<h1>タスク一覧アプリケーション</h1>
 </div>
 <div id ="content">
 ${param.content}
