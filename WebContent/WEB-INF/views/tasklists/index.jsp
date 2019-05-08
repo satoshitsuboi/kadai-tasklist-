@@ -4,7 +4,7 @@
 <c:param name="content">
 <h2>タスク一覧</h2>
 <ul>
-<c:forEach var="tasklist" items="${tasklists }">
+<c:forEach var="tasklist" items="${tasks }">
 <li>
 <a href="${pageContext.request.contextPath}/show?id=${tasklist.id}">
 <c:out value="${tasklist.id }" />

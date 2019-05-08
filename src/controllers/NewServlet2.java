@@ -36,7 +36,7 @@ public class NewServlet2 extends HttpServlet {
 		   EntityManager em = DBUtil.createEntityManager();
 	        em.getTransaction().begin();
 
-	        // Messageのインスタンスを生成
+	        // タスクリストのインスタンスを生成
 	        Tasklist m = new Tasklist();
 
 	        // mの各フィールドにデータを代入
